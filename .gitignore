@@ -1,0 +1,39 @@
+# Archivos y carpetas generadas por Unity que no deben subirse
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Archivos de compilación/autogenerados
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Archivos de VSCode y JetBrains Rider
+.vscode/
+.idea/
+*.code-workspace
+*.sln.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+*.apk
+*.keystore
+*.jks
+
+# Crashlytics / Analytics / configuración sensible
+crashlytics-build.properties
