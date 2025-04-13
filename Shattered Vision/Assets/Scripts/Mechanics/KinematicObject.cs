@@ -105,7 +105,7 @@ namespace Platformer.Mechanics
             if (velocity.y < 0)
                 velocity += gravityModifier * Physics2D.gravity * Time.deltaTime;
             else
-                velocity += Physics2D.gravity * Time.deltaTime;
+                velocity += gravityModifier * Physics2D.gravity * Time.deltaTime;
 
             velocity.x = targetVelocity.x;
 
@@ -148,22 +148,12 @@ namespace Platformer.Mechanics
                             currentNormal.x = 0;
                         }
                     }
+
                     if (IsGrounded)
                     {
-                        //how much of our velocity aligns with surface normal?
-                        var projection = Vector2.Dot(velocity, currentNormal);
-                        if (projection < 0)
-                        {
-                            //slower velocity if moving against the normal (up a hill).
-                            velocity = velocity - projection * currentNormal;
-                        }
+                        velocity.y *= 0;
                     }
-                    else
-                    {
-                        //We are airborne, but hit something, so cancel vertical up and horizontal velocity.
-                        velocity.x *= 0;
-                        velocity.y = Mathf.Min(velocity.y, 0);
-                    }
+                    
                     //remove shellDistance from actual move distance.
                     var modifiedDistance = hitBuffer[i].distance - shellRadius;
                     distance = modifiedDistance < distance ? modifiedDistance : distance;
