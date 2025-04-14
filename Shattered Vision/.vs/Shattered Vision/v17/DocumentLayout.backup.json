@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\Github repos\\prototipo\\Shattered Vision\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\MainMenu.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainMenu.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|e:\\github repos\\prototipo\\shattered vision\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|e:\\github repos\\prototipo\\shattered vision\\assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\victoryzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|e:\\github repos\\prototipo\\shattered vision\\assets\\scripts\\persistenttimetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\persistenttimetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|e:\\github repos\\prototipo\\shattered vision\\assets\\scripts\\timedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD1476B-509F-D67B-95A9-BD5A850D9BB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VictoryZone.cs",
+              "DocumentMoniker": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "ToolTip": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mechanics\\VictoryZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:02:12.57Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +49,35 @@
               "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
               "ToolTip": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\MainMenu.cs",
               "RelativeToolTip": "Assets\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T00:34:13.923Z",
+              "WhenOpened": "2025-04-14T02:01:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "timeDisplay.cs",
+              "DocumentMoniker": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\timeDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\timeDisplay.cs",
+              "ToolTip": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\timeDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\timeDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:51:46.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersistentTimeTracker.cs",
+              "DocumentMoniker": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\PersistentTimeTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PersistentTimeTracker.cs",
+              "ToolTip": "E:\\Github repos\\prototipo\\Shattered Vision\\Assets\\Scripts\\PersistentTimeTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PersistentTimeTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:42:02.072Z",
               "EditorCaption": ""
             }
           ]
