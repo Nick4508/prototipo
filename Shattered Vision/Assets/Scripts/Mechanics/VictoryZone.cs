@@ -1,6 +1,8 @@
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
+using UnityEngine.SceneManagement;
+
 
 namespace Platformer.Mechanics
 {
@@ -16,6 +18,7 @@ namespace Platformer.Mechanics
             {
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;
+                SceneManager.LoadSceneAsync(2);
             }
         }
     }
