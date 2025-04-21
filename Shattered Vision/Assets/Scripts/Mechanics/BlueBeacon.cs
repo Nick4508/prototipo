@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Platformer.Mechanics;
 using UnityEngine;
 
 public class BlueBeacon : MonoBehaviour
 {
     public GameObject block;
+    public AudioClip blueUp;
+    public AudioClip blueDown;
     private BlueBlock blueColor;
     bool isColliding = false;
     // Start is called before the first frame update
@@ -36,11 +39,13 @@ public class BlueBeacon : MonoBehaviour
         {
             blueColor.blueOn = true;
             Debug.Log("Azul activado");
+            AudioSource.PlayClipAtPoint(blueUp, transform.position);
         }
         else if (isColliding && Input.GetKeyDown(KeyCode.E) && blueColor.blueOn)
         {
             blueColor.blueOn = false;
             Debug.Log("Azul desactivado");
+            AudioSource.PlayClipAtPoint(blueDown, transform.position);
         }
     }
 }

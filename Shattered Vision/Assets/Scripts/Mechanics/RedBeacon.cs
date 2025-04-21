@@ -1,12 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Platformer.Gameplay;
+using Platformer.Mechanics;
+using Platformer.Model;
+using UnityEditor;
 using UnityEngine;
 
 public class RedBeacon : MonoBehaviour
 {
     public GameObject block;
+    public AudioClip redUp;
+    public AudioClip redDown;
     private RedBlock redColor;
     bool isColliding = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +43,13 @@ public class RedBeacon : MonoBehaviour
         {
             redColor.redOn = true;
             Debug.Log("Rojo activado");
+            AudioSource.PlayClipAtPoint(redUp, transform.position);
         }
         else if (isColliding && Input.GetKeyDown(KeyCode.E) && redColor.redOn)
         {
             redColor.redOn = false;
             Debug.Log("Rojo desactivado");
+            AudioSource.PlayClipAtPoint(redDown, transform.position);
         }
     }
 }
