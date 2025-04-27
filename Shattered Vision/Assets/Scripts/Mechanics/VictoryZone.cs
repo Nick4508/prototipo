@@ -18,7 +18,7 @@ namespace Platformer.Mechanics
             {
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;
-                SceneManager.LoadSceneAsync(2);
+                SceneManager.LoadSceneAsync(3);
             }
         }
     }
